@@ -41,6 +41,7 @@ var lists = [
   },
 ];
 
+
 var data = [];
 lists.forEach((item,x) => {
   getNewData(x)

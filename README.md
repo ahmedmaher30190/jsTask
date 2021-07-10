@@ -4,40 +4,40 @@
   {
     domain:'google.com',
     sup: [
-      'info@google.com',
-      'suport@google.com',
-      'carear@google.com',
-      'domain@google.com',
-      'director@google.com',
-      'sales@google.com',
+      '1',
+      '2',
+      '3',
+      '4',
+      '5',
+      '6',
     ]
   },
   {
     domain:'facebook.com',
     sup: [
-      'carear@facebook.com',
-      'domain@facebook.com',
-      'sales@facebook.com',
+      '1',
+      '2',
+      '3',
     ]
   },
   {
     domain:'whatsapp.com',
     sup: [
-      'info@whatsapp.com',
-      'suport@whatsapp.com',
-      'carear@whatsapp.com',
-      'domain@whatsapp.com',
+      '1',
+      '2',
+      '3',
+      '4',
     ]
   },
   {
     domain:'sabelhost.com',
     sup: [
-      'info@sabelhost.com',
-      'suport@sabelhost.com',
-      'carear@sabelhost.com',
-      'domain@sabelhost.com',
-      'director@sabelhost.com',
-      'sales@sabelhost.com',
+      '1',
+      '2',
+      '3',
+      '4',
+      '5',
+      '6',
     ]
   },
 ]
@@ -45,23 +45,23 @@
 ## this is output what i want
 
 ```javascript
-['info@google.com',
-'carear@facebook.com',
-'info@whatsapp.com',
-'info@sabelhost.com',
-'suport@google.com',
-'domain@facebook.com',
-'suport@whatsapp.com',
-'suport@sabelhost.com',
-'carear@google.com',
-'sales@facebook.com',
-'carear@whatsapp.com',
-'carear@sabelhost.com',
-'domain@google.com',
-'domain@whatsapp.com',
-'domain@sabelhost.com',
-'director@google.com',
-'director@sabelhost.com',
-'sales@google.com',
-'sales@sabelhost.com']
+['1',
+'1',
+'1',
+'1',
+'2',
+'2',
+'2',
+'2',
+'3',
+'3',
+'3',
+'3',
+'4',
+'4',
+'4',
+'5',
+'5',
+'6',
+'6']
 ```
