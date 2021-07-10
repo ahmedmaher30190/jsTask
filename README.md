@@ -65,3 +65,7 @@
 '6',
 '6']
 ```
+
+# this is php output.
+
+![php php][phpOutPut.png]
