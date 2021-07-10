@@ -68,4 +68,4 @@
 
 # this is php output.
 
-![php php][phpOutPut.png]
+![php php][https://github.com/ahmedmaher30190/jsTask/raw/master/phpOutPut.png]
