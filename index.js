@@ -43,17 +43,19 @@ var lists = [
 
 
 var data = [];
+var number = 0;
 lists.forEach((item,x) => {
   getNewData(x)
 });
 
 function getNewData(x){
     data.push(lists[x]['sup']) ;
+    number += lists[x]['sup'].length;
 }
 
 
 var dat=[];
-function aaaa(){
+function getLastData(){
   for (var i = 0; i < 100; i++) {
     if(data[i]){
       for (var x = 0; x < 1; x++) {
@@ -64,8 +66,8 @@ function aaaa(){
   }
 }
 
-for (var i = 0; i < 100; i++) {
-  aaaa()
+for (var i = 0; i < number; i++) {
+  getLastData()
 }
 //
 dat = dat.filter(function( element ) {
